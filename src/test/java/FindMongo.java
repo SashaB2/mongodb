@@ -9,6 +9,7 @@ public class FindMongo {
 
         DB testDataBase = db.getDB("test");
         DBCollection dbCollection = testDataBase.getCollection("first");
+
         //find collection by value
         {
             BasicDBObject basicDBObject = new BasicDBObject();
